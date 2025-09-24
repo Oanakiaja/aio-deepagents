@@ -1,0 +1,21 @@
+[project]
+name = "aio-deepagents"
+version = "0.1.0"
+description = "deepagents for aio sandbox"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Oanakiaja/aio-deepagents"
+Repository = "https://github.com/Oanakiaja/aio-deepagents"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aio_deepagents"]
